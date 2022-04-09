@@ -22,4 +22,14 @@
     <style name="Theme.Sto2.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.Sto2.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="RatingBar" parent="Widget.AppCompat.RatingBar.Indicator">
+       <item name="android:progressBackgroundTint">#f6af18</item>
+        <item name="android:progressTint">#f6af18</item>
+    </style>
+
+    <style name="SearchView" parent="Widget.AppCompat.SearchView">
+        <item name="android:textColorHint">#7c7c7e</item>
+        <item name="android:textColor">#7c7c7e</item>
+    </style>
 </resources>
